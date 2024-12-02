@@ -29,10 +29,10 @@
 			}
 		}
 	],
-	"globalStyle": {
+	"globalStyle": {//顶部数据
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "璇的小商城",
-		"navigationBarBackgroundColor": "#c00000",
+		"navigationBarTitleText": "最右小程序",
+		"navigationBarBackgroundColor": "#4740c3",
 		"backgroundColor": "#F8F8F8"
 	},
 	"tabBar": {//tabBar底部数据
@@ -64,5 +64,19 @@
 			}
 		]
 	},
+	"subPackages": [//分包
+		{
+			"root": "subpkg",//根目录
+			"pages": [{
+				"path" : "goods_detail/goods_detail",
+				"style" : 
+				{
+					"navigationBarTitleText" : "小米货物"
+				}
+			}
+			
+			]
+		}
+	],
 	"uniIdRouter": {}
 }
